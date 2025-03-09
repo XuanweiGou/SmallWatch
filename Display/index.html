@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>YongqiGou Watch Simulator</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background: #1a1a1a;
+            font-family: "Times New Roman", Times, serif;
+        }
+        canvas {
+            background: #fff;
+            border-radius: 50%;
+            box-shadow: 0 0 20px rgba(0,0,0,0.3);
+        }
+        .title {
+            color: #fff;
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
+        .description {
+            color: #888;
+            margin-top: 20px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="title">YongqiGou Watch Simulator</div>
+    <canvas id="clockCanvas" width="240" height="240"></canvas>
+    <div class="description">Web Preview Version</div>
+    <script src="clock.js"></script>
+</body>
+</html> 
